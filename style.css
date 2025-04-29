@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url('galaxy.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000;
+    color: #feda4a;
+  }
+  
+  a {
+    color: #feda4a;
+    text-decoration: none;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    min-height: 100vh;
+    padding-bottom: 2rem;
+  }
+  
+  .navbar {
+    background-color: #111;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+  
+  .intro {
+    max-width: 800px;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 5px solid #feda4a;
+    box-shadow: 0 0 10px #feda4a33;
+    margin-top: 1rem;
+    color: #fff;
+  }
+  
+  section {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #feda4a;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  
+  .card {
+    background: #111;
+    border: 1px solid #333;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #feda4a22;
+    text-align: center;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.3rem 0.7rem;
+    background: #feda4a;
+    color: #000;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .card.pink { background: #ff69b4; color: #000; }
+  .card.purple { background: #a56eff; color: #fff; }
+  .card.cyan { background: #00e5ff; color: #000; }
+  .card.blue { background: #4fc3f7; color: #000; }
+  .card.violet { background: #ba68c8; color: #fff; }
+  .card.green { background: #81c784; color: #000; }
+  .card.yellow { background: #fdd835; color: #000; }
+  
+  .contact {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background: #feda4a;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    color: #aaa;
+    font-size: 0.8rem;
+    background-color: #111;
+    margin-top: 3rem;
+  }
+  
